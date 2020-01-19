@@ -1,13 +1,13 @@
-package com.coviam.team3bookstorebackend;
+package com.coviam.bookstore.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Team3bookstorebackendApplication {
+public class BookStoreGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Team3bookstorebackendApplication.class, args);
+		SpringApplication.run(BookStoreGatewayApplication.class, args);
 	}
 
 }

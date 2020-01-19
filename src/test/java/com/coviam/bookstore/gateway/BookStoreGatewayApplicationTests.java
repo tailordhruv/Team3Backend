@@ -1,10 +1,10 @@
-package com.coviam.team3bookstorebackend;
+package com.coviam.bookstore.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Team3bookstorebackendApplicationTests {
+class BookStoreGatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
