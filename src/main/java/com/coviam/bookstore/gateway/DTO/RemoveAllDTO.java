@@ -1,12 +1,13 @@
 package com.coviam.bookstore.gateway.DTO;
 
+
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
-public class LoginHistoryDTO {
-    private String uid;
-    private String timestamp;
-
+@ToString
+public class RemoveAllDTO {
+    private String cartId;
 }

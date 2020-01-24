@@ -10,9 +10,9 @@ import lombok.ToString;
 public class SignupDTO {
     private  String name;
     private  String email;
-    private  String phone_number;
+    private  String phoneNumber;
     private  String address;
-    private   String password;
-    private   String pincode;
-    private   String loginType;
+    private  String password;
+    private  String pincode;
+    private  String loginType;
 }
